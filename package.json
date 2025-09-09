@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Para despliegue de API REST de NodeJS con Render",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "Pedro Luque",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "^5.1.0",
+    "zod": "4.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LUQU33/api-rest-deploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LUQU33/api-rest-deploy/issues"
+  },
+  "homepage": "https://github.com/LUQU33/api-rest-deploy#readme"
+}
